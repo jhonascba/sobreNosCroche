@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    ". header header header ."
+    ". main main main ."
+    "footer footer footer footer footer";
+    grid-gap: .4rem;
+    grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-rows: auto 100vh auto auto auto;
+}
+
+.cabecalho {
+    background: grey;
+    grid-area: header;
+    height: 25vh;
+    background: #f1c2e8;
+}
+
+.principal {
+    background: grey;
+    grid-area: main;
+}
+
+.rodape {
+    background: grey;
+    grid-area: footer;
+}
