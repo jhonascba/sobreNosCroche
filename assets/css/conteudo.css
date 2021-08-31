@@ -1,0 +1,10 @@
+.conteudo__secao__grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.conteudo__secao__texto {
+    text-align: justify;
+}

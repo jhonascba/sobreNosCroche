@@ -1,5 +1,5 @@
 .app {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: grid;
     grid-template-areas: 
     "cabecalho" 
@@ -16,11 +16,19 @@
 }
 
 .conteudo {
-    background: rgb(187, 177, 177);
     grid-area: conteudo;
+    display: grid;
+    margin: 0 auto;
+    height: 80vh;
+    width: 70%;
 }
 
 .rodape {
     background: #e2becd;
     grid-area: rodape;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 5px;
 }
+

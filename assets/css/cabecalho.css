@@ -20,6 +20,7 @@
     color: black;
     font-weight: bold;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 .cabecalho__navegacao__nav__link:hover {
