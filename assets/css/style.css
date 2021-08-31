@@ -1,28 +1,26 @@
-body {
-    font-family: 'Roboto', sans-serif;
+.app {
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-areas: 
-    ". header header header ."
-    ". main main main ."
-    "footer footer footer footer footer";
-    grid-gap: .4rem;
-    grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
-    grid-template-rows: auto 100vh auto auto auto;
+    "cabecalho" 
+    "conteudo" 
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
 }
+
 
 .cabecalho {
-    background: grey;
-    grid-area: header;
-    height: 25vh;
-    background: #f1c2e8;
+    background: #e2becd;
+    grid-area: cabecalho;
 }
 
-.principal {
-    background: grey;
-    grid-area: main;
+.conteudo {
+    background: rgb(187, 177, 177);
+    grid-area: conteudo;
 }
 
 .rodape {
-    background: grey;
-    grid-area: footer;
+    background: #e2becd;
+    grid-area: rodape;
 }

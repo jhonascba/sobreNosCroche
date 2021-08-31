@@ -1,34 +1,37 @@
-.cabecalho__navegacao__logo {
-    width: 20vh;
-    padding: 15px;
-}
-
 .cabecalho__navegacao {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.cabecalho__navegacao__logo {
+    width: 200px;
 }
 
 .cabecalho__navegacao__nav {
     display: flex;
     align-items: center;
-    margin-right: 15px;
 }
 
 .cabecalho__navegacao__nav__link {
     margin-right: 15px;
-    font-weight: bold;
-    font-size: 18px;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #19191a;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .cabecalho__navegacao__nav__link:hover {
-    color: #FFF;
-    text-decoration: underline;
+    color: #fdecf3;
+    border-bottom: 1px solid #fdecf3;
+}
+
+.cabecalho__navegacao__nav__link:nth-child(4), .cabecalho__navegacao__nav__link:nth-child(5) {
+    color: none;
+    border-bottom: none;
 }
 
 .cabecalho__navegacao__nav__icone {
-    width: 40px;
+    width: 45px;
 }
